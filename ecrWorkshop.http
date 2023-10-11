@@ -1,0 +1,32 @@
+GET http://localhost:1245/ecrWorkshop/find/1
+
+###
+
+POST http://localhost:1245/ecrWorkshop/proposal
+Content-Type: application/json
+
+{
+    "workshop_name":"MERN Stack",
+    "dept_id":2,
+    "proposal_by":6005
+}
+
+###
+
+GET http://localhost:1245/ecrWorkshop/authorities/1
+
+###
+
+GET http://localhost:1245/ecrWorkshop/loadforlevel1/2/6005
+
+###
+
+PUT http://localhost:1245/ecrWorkshop/acknowledgelevel1/3/6003
+
+###
+
+GET http://localhost:1245/ecrWorkshop/getacknowledgelevel2/3
+
+###
+
+PUT http://localhost:1245/localhost:1245/ecrWorkshop/acknowedgelevel2/3/5
